@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Tenor Sans";
+    src: url("../fonts/tenorsans-regular-webfont.woff") format("woff"),
+        url("../fonts/tenorsans-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat-variablefont_wght-webfont.woff") format("woff"),
+        url("../fonts/montserrat-variablefont_wght-webfont.woff2") format("woff2");
+}
+
+:root {
+    --color-primary: #D4E09B;
+    --color-primary-p: #F6F4D2;
+    --color-secondary: #A44A3F;
+    --color-secondary-p: #F19C79;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --transition-speed: 0.3s;
+    --scroll-behavior: smooth;
+};

@@ -1,0 +1,21 @@
+.topBtn {
+    display: none;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 0;
+    cursor: pointer;
+    box-shadow: 0.2rem 0.2rem;
+}
+
+.topBtn:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    box-shadow: none;
+}

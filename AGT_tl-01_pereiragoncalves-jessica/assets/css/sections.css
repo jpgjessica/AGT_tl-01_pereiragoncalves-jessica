@@ -1,0 +1,277 @@
+/* A */
+@keyframes example {
+    from {
+        background-color: #75890d;
+    }
+
+    to {
+        background-color: #561209;
+    }
+}
+
+.animated {
+    animation-name: example;
+    animation-duration: 3s;
+    height: 5rem;
+    width: 5rem;
+}
+
+/* B */
+.box-shadow {
+    box-shadow: 5px 5px 2px #75890d;
+    border: 1px solid #75890d;
+    height: 5rem;
+    width: 5rem;
+}
+
+/* C */
+.columns {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+/* D */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+    padding: .5rem;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: .5rem 0;
+    font-size: 2rem;
+}
+
+/* F */
+.filter_gray {
+    filter: grayscale(100%);
+}
+
+.filter_gray>img {
+    max-height: 10rem;
+    width: auto;
+}
+
+.filter_blur {
+    filter: blur(5px);
+}
+
+.filter_blur>img {
+    max-height: 10rem;
+    width: auto;
+}
+
+.filter-contrast {
+    filter: contrast(200%);
+}
+
+.filter-contrast>img {
+    max-height: 10rem;
+    width: auto;
+}
+
+/*Gap */
+.grid-gap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    font-size: 2rem;
+    width: 10rem;
+}
+
+/*Hyphen*/
+.hyphen_ex {
+    hyphens: manual;
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid var(--color-black);
+}
+
+
+/*i*/
+
+
+/*justify-self*/
+.container-justify {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid var(--color-black);
+    display: grid;
+}
+
+.justify-self {
+    justify-self: right;
+    background-color: #75890d;
+    width: 30%;
+    height: 30%;
+}
+
+/*kerning*/
+.kerning_01 {
+    font-kerning: normal;
+}
+
+.kerning_02 {
+    font-kerning: none;
+}
+
+
+/*linear grad*/
+.grad_linear {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid var(--color-black);
+    background: linear-gradient(to right, var(--color-primary), var(--color-primary-p));
+}
+
+/*mix blend mode*/
+.container-mixblend {
+    background-image: url(/assets/img/texture-motif-mur-brique-rouge_53876-23210.jpg);
+    height: 6rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Tenor Sans';
+}
+
+.blender {
+    mix-blend-mode: color-burn;
+    color: var(--color-primary)
+}
+
+
+/* opacity */
+.container_opacity {
+    height: 5rem;
+    width: 5rem;
+    opacity: 50%;
+}
+
+
+/*perspective*/
+.container_persp {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 2rem;
+}
+
+.persc {
+    height: 3rem;
+    width: 3rem;
+    background-color: #561209;
+    transform: rotateX(45deg);
+}
+
+/*q*/
+
+/*radial gradient*/
+.radial_grad {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid var(--color-black);
+    background: radial-gradient(var(--color-primary), var(--color-primary-p));
+}
+
+/*s*/
+
+/*transform_01*/
+.square_translation {
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--color-primary);
+    transition: transform 0.3s;
+}
+
+.square_translation:hover {
+    transform: translate(2rem, 3rem);
+}
+
+/*transform_02*/
+.circle {
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.circle:hover {
+    transform: scale(1.5);
+}
+
+/*transform_03*/
+.diamond {
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--color-primary);
+    transition: transform 0.3s;
+}
+
+.diamond:hover {
+    transform: rotate(45deg);
+}
+
+/*transform_04*/
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+    border-bottom: 5rem solid var(--color-primary);
+    transition: transform 0.3s;
+}
+
+.triangle:hover {
+    transform: scale(1.5) rotate(45deg);
+}
+
+/*transform_05*/
+.losange {
+    height: 5rem;
+    width: 8rem;
+    background-color: var(--color-primary);
+    transition: transform 0.3s;
+}
+
+.losange:hover {
+    transform: skew(20deg);
+}
+
+/*transform_06*/
+.ellipse_circle {
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.ellipse_circle:hover {
+    transform: scale(2, 1);
+}
+
+/*u*/
+
+/*v*/
+
+/*word-wrap*/
+.word-wrap {
+    word-wrap: break-word;
+    height: 5rem;
+    width: 5rem;
+}
+
+/*x*/
+
+/*y*/
+
+/*z*/

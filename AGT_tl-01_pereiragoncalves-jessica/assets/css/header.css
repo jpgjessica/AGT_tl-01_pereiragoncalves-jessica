@@ -1,0 +1,69 @@
+header {
+    position: fixed;
+    width: 100%;
+    height: 15rem;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: height var(--transition-speed) ease;
+    z-index: 1;
+    top: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.header_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    font-family: "Tenor Sans";
+    font-weight: 600;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-secondary-p);
+}
+
+nav li:hover,
+nav a:hover {
+    transform: scale(1.2);
+    color: var(--color-secondary);
+}
+
+header.header_reduced {
+    height: 8rem;
+}
+
+header.header_reduced h1 {
+    font-size: 1.5rem;
+}
+
+header.header_reduced nav ul {
+    font-size: 0.7rem;
+}
